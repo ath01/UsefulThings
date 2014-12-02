@@ -13,7 +13,6 @@ public class ArraysSort2 {
             array[i] =  Integer.parseInt(br.readLine());
         }
         int temp;
-        int temp2;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (array[i]<array[j]){
@@ -29,6 +28,7 @@ public class ArraysSort2 {
         for (int i : array) {
             System.out.println(i);
         }
+
 
     }
 }
